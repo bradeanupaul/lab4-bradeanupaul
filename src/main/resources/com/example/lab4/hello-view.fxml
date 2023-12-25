@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+
+    <VBox prefHeight="460.0" prefWidth="300.0" spacing="10.0">
+        <TextField fx:id="idLivrat" prefHeight="0.0" prefWidth="300.0" promptText="Introdu id-ul tortului/comenzii." />
+        <TextField fx:id="idNou" prefHeight="0.0" prefWidth="300.0" promptText="Introdu id-ul tortului/comenzii pentru modificare." />
+        <TextField fx:id="tipLivrat" prefHeight="0.0" prefWidth="300.0" promptText="Introdu aroma tortului." />
+        <TextField fx:id="stringLivrat" prefHeight="0.0" prefWidth="300.0" promptText="Introdu id-urile torturilor separate de virgule." />
+        <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+            <Button fx:id="adaugaTort" onAction="#adaugaTort" text="Adauga TORT" />
+            <Button fx:id="adaugaComanda" onAction="#adaugaComanda" text="Adauga COMANDA" />
+        </HBox>
+        <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+            <Button fx:id="modificaTort" onAction="#modificaTort" text="Modifica TORT" />
+            <Button fx:id="modificaComanda" onAction="#modificaTort" text="Modifica COMANDA" />
+        </HBox>
+        <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+            <Button fx:id="stergeTort" onAction="#stergeTort" text="Sterge TORT" />
+            <Button fx:id="stergeComanda" onAction="#stergeComanda" text="Sterge COMANDA" />
+        </HBox>
+        <ListView fx:id="lstMessage" prefHeight="500.0" prefWidth="300.0" />
+        <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+            <Button fx:id="afiseazaTorturi" onAction="#getAllTorturi" text="Afiseaza TORTURI" />
+            <Button fx:id="afiseazaComenzi" onAction="#getAllComenzi" text="Afiseaza COMENZI" />
+        </HBox>
+        <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+            <Button fx:id="afiseazaTorturi" onAction="#getAllTorturi" text="Genereaza 100 TORTURI" />
+            <Button fx:id="afiseazaComenzi" onAction="#getAllComenzi" text="Genereaza 100 COMENZI" />
+        </HBox>
+    </VBox>
+    <HBox prefHeight="0.0" prefWidth="300.0" spacing="10.0">
+        <Button fx:id="afiseazaTorturi" onAction="#getAllTorturi" text="Inchide program" />
+    </HBox>
+</VBox>

@@ -1,0 +1,14 @@
+package Domain;
+
+public class TortConverter implements EntityConverter<Tort> {
+    @Override
+    public String toString(Tort t){
+        return t.getId()+","+t.getTip();
+    }
+
+    public Tort fromString(String line)
+    {
+        String[] tokens = line.split(",");
+        return new Tort(Integer.parseInt(tokens[0]),tokens[1]);
+    }
+}
