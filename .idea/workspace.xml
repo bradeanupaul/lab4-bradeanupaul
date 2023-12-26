@@ -4,49 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373a0030-3a02-4e09-8b21-3082c861a9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Comanda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/ComandaConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/EntityConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Tort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/TortConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AbstractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/BinaryFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DuplicateObjectException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/RepositoryComanda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/RepositoryTort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/SQLComandRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/SQLTortRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/SettingsTort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/TextFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/settings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/settingsTort.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ServiceComanda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ServiceTort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comanda.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comanda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/lab4/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tort.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tort.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tort.txt" afterDir="false" />
+    <list default="true" id="373a0030-3a02-4e09-8b21-3082c861a9c0" name="Changes" comment="Lab4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,11 +64,36 @@
       <workItem from="1702910367993" duration="4014000" />
       <workItem from="1703243126348" duration="1184000" />
       <workItem from="1703286146872" duration="58000" />
+      <workItem from="1703510359007" duration="1831000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab4">
+      <option name="closed" value="true" />
+      <created>1703510512861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703510512861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
